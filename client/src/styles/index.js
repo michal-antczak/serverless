@@ -1,15 +1,14 @@
 // MEDIA QUERIES
-import respond from './respond'
+import respond from "./respond";
 // COLORS
-import {colors} from './colors'
+import { colors } from "./colors";
 // FONTS
-import {fonts} from './fonts'
+import { fonts } from "./fonts";
 // CONTAINERS
-import { SectionNarrow } from './components'
+import { SectionNarrow, Form, Field, ButtonPrimary } from "./components";
 // TYPOGRAPHY
-import { Text, Heading1 } from './typography'
+import { Text, Heading1 } from "./typography";
 // BUTTONS
-
 
 export {
   // MEDIA QUERIES
@@ -20,7 +19,11 @@ export {
   fonts,
   // CONTAINERS
   SectionNarrow,
+  Form,
+  Field,
+  ButtonPrimary,
   // TYPOGRAPHY
-  Text, Heading1,
+  Text,
+  Heading1,
   // BUTTONS
-}
+};
